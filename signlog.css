@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.field{
+    margin-bottom: 10px;
+}
+form{
+    width: 100%;
+}
+input, select{
+    background-color: var(--white);
+    color: var(--black-coral);
+    font-size: var(--fs-7);
+    padding: 14px 18px;
+    border-radius: var(--radius-6);
+    outline: none;
+    margin-block-end: 20px;
+}
+h3{
+    margin-left: 10px;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.wrong{
+    color: red;
+    border: 2px solid red;
+}
+.error{
+    font-size: 10px;
+    color: red;
+    margin-left: 10px;
+}
+.correct{
+    color: green;
+    border: 2px solid green;
+}
+.main2{
+    padding: 50px 50px;
+    width: 50vw;
+}
+.main1{
+    background-image: url('./cover.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 100vh;
+}
+.msg, .msg a{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+input[type=submit]
+{
+    background-color: white;
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
